@@ -11,13 +11,13 @@ if (bInd == null || bIng == null || Math == null || IPA == null) {
   return false;
 }
 if (result >= 90 && result <= 100) {
-  console.log(`A with value ${result}`);
+  console.log(`Grade : A with value ${result}`);
 } else if (result >= 80 && result < 90) {
-  console.log(`B with value ${result}`);
+  console.log(`Grade : B with value ${result}`);
 } else if (result >= 70 && result < 80) {
-  console.log(`C with value ${result}`);
+  console.log(`Grade : C with value ${result}`);
 } else if (result >= 60 && result < 70) {
-  console.log(`D with value ${result}`);
+  console.log(`Grade : D with value ${result}`);
 } else {
-  console.log(`E with value ${result}`);
+  console.log(`Grade : E with value ${result}`);
 }

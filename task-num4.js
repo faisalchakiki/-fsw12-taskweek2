@@ -8,14 +8,14 @@ function palindrom(data) {
   for (let i = input.length - 1; i >= 0; i--) {
       result += input[i];
   }
-  if( result == input){
+  if( result === input){
     console.log("palindrom")
   }else{
-    console.log("this text is not a palindrome")
+    console.log("not a palindrome")
   }
 }
-palindrom("hello")
-palindrom("malam")
-palindrom("Aibohphobia")
-palindrom("212")
+palindrom("hello") // not a palindrom
+palindrom("malam") //palindrom
+palindrom("Aibohphobia") //palindrom
+palindrom("212") //palindrom
 

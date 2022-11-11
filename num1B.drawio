@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="vWYeZnBhxLeXJk-lzJxo" name="Page-1">
-        <mxGraphModel dx="1019" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="650" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -75,8 +75,8 @@
                 <mxCell id="9uyREd5VoiaNZwgwDETJ-42" value="output result" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=15;fontStyle=1" parent="1" vertex="1">
                     <mxGeometry x="510" y="752.98" width="130" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="9uyREd5VoiaNZwgwDETJ-46" value="&lt;span&gt;Algoritma&lt;br&gt;1. mulai&lt;br&gt;2. memasukkan input text&lt;br&gt;3. apabila tipe data input != &quot;string&quot;&amp;nbsp; atau panjang input == 0&lt;br&gt;4. jika benar maka selesai&lt;br&gt;5. lakukan looping untuk mendapatkan index&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;span&gt;6. jika var i = 0 kurang dari input.lenght&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;7. lakukan increment&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;8. apabila input[ i ] == &quot;a&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;9. jika salah result ditambah dengan input[i]&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;10. jika benar result ditambah dengan &quot;o&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;11. output result&lt;/div&gt;&lt;div&gt;&lt;span&gt;12. selesai&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontStyle=1" parent="1" vertex="1">
-                    <mxGeometry x="20" y="70" width="440" height="240" as="geometry"/>
+                <mxCell id="9uyREd5VoiaNZwgwDETJ-46" value="&lt;span&gt;Algoritma&lt;br&gt;1. mulai&lt;br&gt;2. memasukkan input text&lt;br&gt;3. apabila tipe data input bukan string atau panjang input = 0&lt;br&gt;4. jika benar maka selesai&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;span&gt;6. jika variable i = 0 kurang dari panjang input&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;7. lakukan increment&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;8. lalu apabila input index ke i berhuruf a&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;9. jika salah result ditambah dengan input index ke i&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;10. jika benar result ditambah dengan huruf o&lt;/span&gt;&lt;/div&gt;&lt;div&gt;11. output result&lt;/div&gt;&lt;div&gt;&lt;span&gt;12. selesai&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="20" y="80" width="450" height="220" as="geometry"/>
                 </mxCell>
                 <mxCell id="WSGCVs09SODB3bQry3AC-5" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="WSGCVs09SODB3bQry3AC-1" target="9uyREd5VoiaNZwgwDETJ-20" edge="1">
                     <mxGeometry relative="1" as="geometry">
@@ -95,10 +95,10 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="mwVllYBKmnYcW0Y0dfRz-5" value="false" style="edgeStyle=none;html=1;strokeWidth=1;fontSize=14;fontStyle=1" edge="1" parent="1" source="WSGCVs09SODB3bQry3AC-1" target="3">
+                <mxCell id="mwVllYBKmnYcW0Y0dfRz-5" value="false" style="edgeStyle=none;html=1;strokeWidth=1;fontSize=14;fontStyle=1" parent="1" source="WSGCVs09SODB3bQry3AC-1" target="3" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="WSGCVs09SODB3bQry3AC-1" value="&lt;b&gt;if typeof input != string || input.lenght == 0&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="WSGCVs09SODB3bQry3AC-1" value="&lt;b&gt;typeof input != string || input.lenght == 0&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="485" y="270" width="170" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="5" value="" style="edgeStyle=none;html=1;" parent="1" source="3" target="9uyREd5VoiaNZwgwDETJ-33" edge="1">

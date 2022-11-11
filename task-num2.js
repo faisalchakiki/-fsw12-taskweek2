@@ -26,3 +26,4 @@ let biodata = {
     skills : [{webDevelopment : "beginner"}],
     interistInCoding : true 
 }
+console.log(biodata)
